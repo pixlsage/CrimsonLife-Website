@@ -186,7 +186,7 @@ code {
 
 .playerGrid {
 	display: grid;
-	grid-template-columns: repeat(5, 275px);
+	grid-template-columns: repeat(5, 250px);
 	grid-gap: 30px;
 	align-items: center;
 	justify-items: center;
@@ -259,7 +259,7 @@ Link {
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     gap: 1rem;
-    padding: 2rem;
+    padding: 1rem;
 	border-radius: 1rem;
     margin: 0 auto;
     max-width: 900px;

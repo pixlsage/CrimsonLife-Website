@@ -12,9 +12,9 @@
 <div class="season-videos">
   <h1 class="montserrat text-subtitle">Crimson Third Life</h1>
   <p><strong>Teaser Video:</strong>
-        <a href="https://www.youtube.com/watch?v=MK62GKl05F8">YouTube | Crimson Life Teaser | pixlsage</a></p>
+    <a href="https://www.youtube.com/watch?v=MK62GKl05F8">YouTube | pixlsage | Crimson Life Teaser</a></p>
   <p><strong>One-Off Video:</strong>
-        <a href="https://www.youtube.com/watch?v=qIgQr-7S_gc">Youtube | Minecraft's Most Chaotic Miniround | pixlsage</a></p>
+    <a href="https://www.youtube.com/watch?v=qIgQr-7S_gc">YouTube | pixlsage | Minecraft's Most Chaotic Miniround</a></p>
 </div>
 
 <style> 

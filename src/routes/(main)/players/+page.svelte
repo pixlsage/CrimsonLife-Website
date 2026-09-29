@@ -11,6 +11,7 @@
     These pages are where each player's profiles are stored.<br>
     They include general info about the player as well as what they did in each series they were in.
 </p>
+<br>
 
 <div class="playerGrid m-10">
     {#each playerData as player}

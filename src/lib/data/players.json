@@ -6,5 +6,189 @@
         "placement": "Alive",
         "seasons": "S1",
         "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "FeebleBrush162",
+        "nickname": "BEN",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Stack_o_nhoj",
+        "nickname": "JOHN",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "SaviMatteo2810",
+        "nickname": "SAVI",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Sherbiscute",
+        "nickname": "REI",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Hobbbs",
+        "nickname": "HOBBBS",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Genius_3",
+        "nickname": "GENIUS",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "vc_spade",
+        "nickname": "SPADE",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "aquorn",
+        "nickname": "AQUORN",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Manahhhh",
+        "nickname": "MANA",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "SamStrange7",
+        "nickname": "SAM",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Polar_Phantom",
+        "nickname": "POLAR",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Kibiyo_",
+        "nickname": "KIBIYO",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Flamango37",
+        "nickname": "FLAMANGO",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "PoochtheDog101",
+        "nickname": "POOCH",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Aerorolsa",
+        "nickname": "AERO",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "HubrisGekko",
+        "nickname": "GEKKO",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "SweetyYuso",
+        "nickname": "YUSO",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Akamane55",
+        "nickname": "WES",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "Prosperity_",
+        "nickname": "PROSPERITY",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "CardinalVII",
+        "nickname": "CARD",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "SxarI3tt",
+        "nickname": "SCARLETT",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "chaotic_Suga",
+        "nickname": "SUGA",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
+    },
+    {
+        "name": "ChampionofSpades",
+        "nickname": "MISTY",
+        "lives": 3,
+        "placement": "Alive",
+        "seasons": "S1",
+        "seasonCheck": ["CTL"]
     }
 ]

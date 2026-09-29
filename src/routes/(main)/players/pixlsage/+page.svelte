@@ -5,7 +5,10 @@
 </script>
 
 <div class="player-profile">
+
+  <a href="https://namemc.com/skin/b17bce084f05d51b">
   <img src="/players/pixlsage.png" alt="Pix" class="profile-img" />
+  </a>
 
   <div class="profile-info">
     <h2 class="montserrat text-nickname">{player.nickname}</h2>
@@ -21,7 +24,8 @@
 <h2 class="montserrat text-subtitle" style="text-align: center">Other Skins</h2>
 <div class="skin-list">
   <figure class="skin">
-    <img src="/players/thirdlife/pixlsage.png" alt="third life skin">
+    <a href="https://namemc.com/skin/b17bce084f05d51b">
+    <img src="/players/pixlsage.png" alt="third life skin"></a>
     <figcaption style="margin-top: 0.5rem">Third Life</figcaption>
   </figure>
 </div>
