@@ -1,6 +1,38 @@
 [
     {
-        "teamName": "Placeholder Team",
-        "players": ["pixlsage"]
+        "teamName": "Skylanders",
+        "players": ["FeebleBrush162", "CardinalVII", "pixlsage", "pixlsage", "pixlsage"]
+    },
+    {
+        "teamName": "Grase Kingdom",
+        "players": ["SaviMatteo2810", "Sherbiscute", "SweetyYuso"]
+    },
+    {
+        "teamName": "The Dutch",
+        "players": ["Genius_3", "SamStrange7", "PoochtheDog101"]
+    },
+    {
+        "teamName": "The Gold Diggers",
+        "players": ["vc_spade", "ChampionofSpades"]
+    },
+    {
+        "teamName": "The Hustlers",
+        "players": ["Manahhhh", "Kibiyo_", "Aerorolsa"]
+    },
+    {
+        "teamName": "Polar's Polers",
+        "players": ["typolar", "Flamango37", "Prosperity_"]
+    },
+    {
+        "teamName": "The Cowboys",
+        "players": ["HubrisGekko", "Akamane55"]
+    },
+    {
+        "teamName": "Unnamed Team [S2]",
+        "players": ["aquorn", "SxarI3tt", "chaotic_Suga"]
+    },
+    {
+        "teamName": "Unaligned",
+        "players": ["pixlsage", "Stack_o_nhoj", "Hobbbs"]
     }
 ]

@@ -1,13 +1,13 @@
 <script lang="ts">
     import playerData from '$lib/data/players.json';
-    const player = playerData.find(p => p.name === "Polar_Phantom")
+    const player = playerData.find(p => p.name === "typolar")
     import PlayerRef from '$lib/components/playerRef.svelte';
 </script>
 
 <div class="player-profile">
 
-  <a href="https://namemc.com/skin/c383900590e368dc">
-  <img src="/players/Polar_Phantom.png" alt="Polar" class="profile-img" />
+  <a href="https://namemc.com/skin/36c35f7c58cde123">
+  <img src="/players/typolar.png" alt="Polar" class="profile-img" />
   </a>
 
   <div class="profile-info">
