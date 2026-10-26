@@ -26,9 +26,12 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Gold Diggers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Formed <strong>The Gold Diggers</strong> with <PlayerRef name="vc_spade" nickname="Spade" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> <PlayerRef name="ChampionofSpades" lives={3} season="thirdlife" /> fell from a high place</li>
+      <li><strong>[S1]</strong> Did work for <strong>The Dutch</strong> in exchange for <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> paying them 27 gold</li>
+      <li><strong>[S1]</strong> Bet 5 gold on <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /> being the first red</li>
     </ul>
   </div>
 </div>

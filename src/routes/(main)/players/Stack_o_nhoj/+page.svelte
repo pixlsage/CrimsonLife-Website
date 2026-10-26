@@ -26,9 +26,10 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Unaligned</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Built the <strong>Carving Shack</strong></li>
+      <li><strong>[S1]</strong> Gave other members jack-o-lanterns</li>
     </ul>
   </div>
 </div>

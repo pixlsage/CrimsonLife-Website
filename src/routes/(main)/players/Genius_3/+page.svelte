@@ -26,9 +26,12 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Dutch</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Formed <strong>The Dutch</strong> with <PlayerRef name="SamStrange7" nickname="Sam" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Started building <strong>The Dutch</strong>'s base</li>
+      <li><strong>[S1]</strong> Recruited <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> to his team</li>
+      <li><strong>[S1]</strong> Met up with <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /> to do the birthday meeting</li>
     </ul>
   </div>
 </div>

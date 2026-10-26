@@ -26,9 +26,12 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Cowboys</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Teamed up with <PlayerRef name="HubrisGekko" nickname="Gekko" lives={3} season="thirdlife" /> - undecided team name</li>
+      <li><strong>[S1]</strong> Caved and searched a bastion, then properly formed <strong>The Cowboys</strong> with <PlayerRef name="HubrisGekko" nickname="Gekko" lives={2} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Killed <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" />'s villagers</li>
+      <li><strong>[S1]</strong> <PlayerRef name="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing the villagers</li>
     </ul>
   </div>
 </div>

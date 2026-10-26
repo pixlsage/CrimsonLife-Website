@@ -26,9 +26,11 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Hustlers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Looted the bastion in the Nether after caving</li>
+      <li><strong>[S1]</strong> Formed <strong>The Hustlers</strong> with <PlayerRef name="Kibiyo_" nickname="Kibiyo" lives={3} season="thirdlife" /> and <PlayerRef name="Aerorolsa" nickname="Aero" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Started building <strong>The Hustlers</strong>' base</li>
     </ul>
   </div>
 </div>

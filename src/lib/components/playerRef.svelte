@@ -49,7 +49,7 @@
         display: inline-flex;
         align-items: center;
         gap: 0.2rem;
-        vertical-align: -0.3rem;
+        vertical-align: -0.35rem;
         line-height: 1;
     }
 

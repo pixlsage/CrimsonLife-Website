@@ -26,9 +26,13 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Polar's Polers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> <PlayerRef name="typolar" lives={3} season="thirdlife" /> tried to swim in lava</li>
+      <li><strong>[S1]</strong> Started building his base on the snowy mountain</li>
+      <li><strong>[S1]</strong> Made a friendship with <PlayerRef name="SaviMatteo2810" nickname="Savi" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Formed <strong>Polar's Polers</strong> with <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /> and <PlayerRef name="Prosperity_" nickname="Prosperity" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Gave <PlayerRef name="SamStrange7" nickname="Sam" lives={3} season="thirdlife" /> a potato in exchange for a diamond</li>
     </ul>
   </div>
 </div>

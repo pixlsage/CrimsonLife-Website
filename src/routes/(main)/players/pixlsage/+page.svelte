@@ -36,10 +36,11 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Unaligned</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
-      <li><strong>[S2]</strong> <PlayerRef name="pixlsage" lives={3} /> was slain by <PlayerRef name="Placeholder" lives={1} /></li>
+      <li><strong>[S1]</strong> Found a spot on the cherry mountain to build on, but no structure was made</li>
+      <li><strong>[S1]</strong> Went to the Nether and harvested the only crimson tree</li>
+      <li><strong>[S1]</strong> Met up with <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /> to do the birthday meeting</li>
     </ul>
   </div>
 </div>

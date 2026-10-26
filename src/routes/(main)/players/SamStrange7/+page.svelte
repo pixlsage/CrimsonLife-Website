@@ -26,9 +26,11 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Dutch</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Formed <strong>The Dutch</strong> with <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Invited <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> to join <strong>The Dutch</strong> after caving</li>
+      <li><strong>[S1]</strong> Gave a diamond to <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" /> in exchange for a potato</li>
     </ul>
   </div>
 </div>

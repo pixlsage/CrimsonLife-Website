@@ -26,9 +26,11 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Grase Kingdom</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Formed the <strong>Grase Kingdom</strong> with <PlayerRef name="SaviMatteo2810" nickname="Savi" lives={3} season="thirdlife" /> and <PlayerRef name="Sherbiscute" nickname="Rei" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Made a friendship with <strong>The Dutch</strong></li>
+      <li><strong>[S1]</strong> Started building the <strong>Grase Kingdom</strong>'s base with <PlayerRef name="Sherbiscute" nickname="Rei" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

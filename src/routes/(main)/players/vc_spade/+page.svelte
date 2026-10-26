@@ -26,9 +26,13 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Gold Diggers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Found villagers and hid them away</li>
+      <li><strong>[S1]</strong> Formed <strong>The Gold Diggers</strong> with <PlayerRef name="ChampionofSpades" nickname="Misty" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> <PlayerRef name="vc_spade" lives={3} season="thirdlife" /> fell from a high place</li>
+      <li><strong>[S1]</strong> Disovered the villagers had been killed, looked for who had done it</li>
+      <li><strong>[S1]</strong> <PlayerRef name="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing the villagers</li>
     </ul>
   </div>
 </div>

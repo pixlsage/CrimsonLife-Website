@@ -26,9 +26,11 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Polar's Polers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Got given gear after joining late</li>
+      <li><strong>[S1]</strong> Formed <strong>Polar's Polers</strong> with <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" /> and <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Mapped out all the teams and bases on the server so far</li>
     </ul>
   </div>
 </div>

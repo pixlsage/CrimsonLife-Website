@@ -26,9 +26,9 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Hustlers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Formed <strong>The Hustlers</strong> with <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" /> and <PlayerRef name="Kibiyo_" nickname="Kibiyo" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

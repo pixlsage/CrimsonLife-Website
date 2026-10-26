@@ -26,9 +26,12 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Polar's Polers</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> <PlayerRef name="Flamango37" lives={3} season="thirdlife" /> was shot by Pillager</li>
+      <li><strong>[S1]</strong> Explored the ancient city while caving, and the bastion in the Nether</li>
+      <li><strong>[S1]</strong> Bet 18 gold on <PlayerRef name="ChampionofSpades" nickname="Misty" lives={2} season="thirdlife" /> being the first red</li>
+      <li><strong>[S1]</strong> Formed <strong> Polar's Polers</strong> with <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" /> and <PlayerRef name="Prosperity_" nickname="Prosperity" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

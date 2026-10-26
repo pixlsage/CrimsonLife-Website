@@ -2,6 +2,7 @@
     import playerData from '$lib/data/players.json';
     const player = playerData.find(p => p.name === "HubrisGekko")
     import PlayerRef from '$lib/components/playerRef.svelte';
+    import PlayerCard from '$lib/components/playerCard.svelte';
 </script>
 
 <div class="player-profile">
@@ -26,9 +27,13 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: The Cowboys</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Teamed up with <PlayerRef name="Akamane55" nickname="Wes" lives={3} season="thirdlife" /> - undecided team name</li>
+      <li><strong>[S1]</strong> <PlayerRef name="HubrisGekko" lives={3} season="thirdlife" /> burned to death ~ in the bastion, after falling in lava</li>
+      <li><strong>[S1]</strong> Built <strong>The Saloon</strong></li>
+      <li><strong>[S1]</strong> Declined an offer from <PlayerRef name="CardinalVII" nickname="Card" lives={3} season="thirdlife" /> to join his team, then properly formed <strong>The Cowboys</strong> with <PlayerRef name="Akamane55" nickname="Wes" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Bet a diamond shovel on <PlayerRef name="Akamane55" nickname="Wes" lives={3} season="thirdlife" /> being the last green, but he died shortly after</li>
     </ul>
   </div>
 </div>

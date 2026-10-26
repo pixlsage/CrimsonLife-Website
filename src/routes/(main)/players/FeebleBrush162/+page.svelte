@@ -26,9 +26,10 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Skylanders</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Waypointed each base on the server at the time</li>
+      <li><strong>[S1]</strong> Formed the <strong>Skylanders</strong> with <PlayerRef name="CardinalVII" nickname="Card" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

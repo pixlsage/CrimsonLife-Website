@@ -26,9 +26,11 @@
   <div class="season-info">
     <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Grase Kingdom</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Formed the <strong>Grase Kingdom</strong> with <PlayerRef name="Sherbiscute" nickname="Rei" lives={3} season="thirdlife" /> and <PlayerRef name="SweetyYuso" nickname="Yuso" lives={3} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Made a friendship with <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" /></li>
+      <li><strong>[S1]</strong> Found a chicken with the aim of bringing it to their team's base, but it died before making it</li>
     </ul>
   </div>
 </div>

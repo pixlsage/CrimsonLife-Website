@@ -28,7 +28,8 @@
     <p>Placement: N/A<br>
     Team: None</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S1]</strong> Stole the enchanter from spawn</li>
+      <li><strong>[S1]</strong> <PlayerRef name="SxarI3tt" lives={3} season="thirdlife" /> fell from a high place</li>
     </ul>
   </div>
 </div>
