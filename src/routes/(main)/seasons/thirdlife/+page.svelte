@@ -6,6 +6,7 @@
     import teamData from '$lib/data/TLteams.json';
     let showTeams = false;
     let showS1 = false;
+    let showS2 = false;
 
     const seasonPlayers = playerData.filter(player =>
         player.seasonCheck.includes("CTL")
@@ -25,6 +26,7 @@
     <h1 class="montserrat" style="text-align:center">INFO</h1>
     <h3 style="text-align:center">
     Start Date: 18 Oct 2026<br>End Date: N/A<br>Winner: N/A<br>
+    <a href="/seasons/thirdlife/lore">Lore Page</a><br>
     </h3>
     </div>
 
@@ -38,6 +40,7 @@
                 placement={player.placement}
                 seasons={player.seasons}
                 season={true}
+                series="thirdlife"
             />
         {/each}
     </div>
@@ -54,7 +57,7 @@
             <TeamCard teamName={team.teamName}>
             {#each team.players as playerName}
                 {#if getPlayer(playerName)}
-                <PlayerCard {...getPlayer(playerName)} season={true}/>
+                <PlayerCard {...getPlayer(playerName)} season={true} series="thirdlife"/>
                 {:else}
                 <p>Player not found: {playerName}</p>
                 {/if}
@@ -65,7 +68,8 @@
     {/if}
 
     <br><h1 class="montserrat" style="text-align:center">GIMMICK</h1><br>
-    <p style="text-align:center">The gimmick for this season has not yet been revealed!</p>
+    <p style="text-align:center">This season's gimmick has been revealed, but only to a select few players.<br>
+                                The only video that contains it is Card's Episode 2 - watch that if you want to know what it is!</p>
 
     <br><h1 class="montserrat" style="text-align:center">EVENTS</h1>
     <h2 class="montserrat" style="text-align:center">Session 1</h2>
@@ -102,6 +106,38 @@
         </p>
         </div>
     {/if}
+    <h2 class="montserrat" style="text-align:center">Session 2</h2>
+    <div style="text-align: center"><button on:click={() => showS2 = !showS2} aria-expanded={showS2}> {showS2 ? "Hide S2 Summary" : "Show S2 Summary"}</button></div>
+    {#if showS2}
+        <div style="line-height: 1.8">
+        <p style="text-align: center">
+            The enchanting table is replaced at spawn due to <PlayerRef name="SxarI3tt" nickname="Scarlett" lives={2} season="thirdlife" />'s absence<br>
+            <strong>The Dutch</strong>'s base is expanded<br>
+            <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> builds the <strong>Grounded Dutchman</strong><br>
+            <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /> builds the <strong>Crimson Watchtower</strong><br>
+            <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> steals the enchanter from spawn<br>
+            <PlayerRef name="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using a trap<br>
+            <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" /> builds <strong>The Hustlers</strong>' base<br>
+            <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using the same trap<br>
+            <PlayerRef name="Hobbbs" lives={3} season="thirdlife" /> drowned<br>
+            <PlayerRef name="Aerorolsa" lives={3} season="thirdlife" /> fell from a high place ~ off the Crimson Watchtower<br>
+            <PlayerRef name="Aerorolsa" lives={2} season="thirdlife" /> fell from a high place ~ failed a self-challenged bucket clutch off the Crimson Watchtower<br>
+            Bets for the first red are collected by <strong>The Hustlers</strong> (nobody won)<br>
+            <PlayerRef name="Genius_3" nickname="Genius" lives={2} season="thirdlife" /> records episode 1 of the Farming Podcast with <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /><br>
+            <PlayerRef name="ChampionofSpades" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using a minecart ride trap<br>
+            <PlayerRef name="Hobbbs" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using the same minecart trap<br>
+            <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /> begins building the glass dome around <strong>Polar's Polers</strong>' base<br>
+            <PlayerRef name="CardinalVII" nickname="Card" lives={3} season="thirdlife" /> builds the wedding area<br>
+            <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" /> makes a trap at the wedding area<br>
+            <PlayerRef name="Stack_o_nhoj" lives={3} season="thirdlife" /> was slain by <PlayerRef name="ChampionofSpades" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while fighting <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> ~ using <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" />'s trap at the wedding area<br>
+            <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> was doomed to fall by <PlayerRef name="vc_spade" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="pixlsage" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> gains a life and becomes yellow<br>
+        </p>
+        </div>
+    {/if}
+
 
     <br>
 </div>

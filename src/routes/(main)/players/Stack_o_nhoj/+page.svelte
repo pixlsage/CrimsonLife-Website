@@ -30,6 +30,7 @@
     <ul class="bullet-list">
       <li><strong>[S1]</strong> Built the <strong>Carving Shack</strong></li>
       <li><strong>[S1]</strong> Gave other members jack-o-lanterns</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Stack_o_nhoj" lives={3} season="thirdlife" /> was slain by <PlayerRef name="ChampionofSpades" lives={1} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

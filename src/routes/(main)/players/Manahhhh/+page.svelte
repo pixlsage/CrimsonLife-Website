@@ -31,6 +31,7 @@
       <li><strong>[S1]</strong> Looted the bastion in the Nether after caving</li>
       <li><strong>[S1]</strong> Formed <strong>The Hustlers</strong> with <PlayerRef name="Kibiyo_" nickname="Kibiyo" lives={3} season="thirdlife" /> and <PlayerRef name="Aerorolsa" nickname="Aero" lives={3} season="thirdlife" /></li>
       <li><strong>[S1]</strong> Started building <strong>The Hustlers</strong>' base</li>
+      <li><strong>[S2]</strong> Collected bets for the first red, as nobody won</li>
     </ul>
   </div>
 </div>

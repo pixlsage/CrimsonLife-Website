@@ -32,6 +32,9 @@
       <li><strong>[S1]</strong> Started building <strong>The Dutch</strong>'s base</li>
       <li><strong>[S1]</strong> Recruited <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> to his team</li>
       <li><strong>[S1]</strong> Met up with <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /> to do the birthday meeting</li>
+      <li><strong>[S2]</strong> Expanded <strong>The Dutch</strong>'s base</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using a trap</li>
+      <li><strong>[S2]</strong> Recorded Episode 1 of the Farming Podcast with <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

@@ -18,7 +18,8 @@
   <p><strong>Pix's CTL:</strong>
     <a href="https://youtube.com/playlist?list=PLNoTsRZshWag&si=TEqLKGRLzVj5ZuDI">(Playlist) Crimson Third Life</a></p>
   <p><strong>Savi's CTL:</strong>
-    <a href="https://www.youtube.com/watch?v=YTBo8MHKIf8">(E1) The Kingdom of Grase!</a></p>
+    <a href="https://www.youtube.com/watch?v=YTBo8MHKIf8">(E1) The Kingdom of Grase!</a> |
+    <a href="https://www.youtube.com/watch?v=q3H_fyBdyaQ">(E2 Filler) Crimson Life Hunger Games</a></p>
   <p><strong>Genius Farming Podcast:</strong>
     <a href="https://www.youtube.com/playlist?list=PLQ0vNVGv6Ufc">(Playlist) Genius Farming Podcast</a></p>
   <p><strong>Sam's CTL:</strong>
@@ -28,7 +29,8 @@
   <p><strong>Gekko's CTL:</strong>
     <a href="https://www.youtube.com/watch?v=YXTKQxA3YWE">(E1) Partners in Crime</a></p>
   <p><strong>Card's CTL:</strong>
-    <a href="https://www.youtube.com/watch?v=j4ut4mfShQA">(E1) THE BOARD</a></p>
+    <a href="https://www.youtube.com/watch?v=j4ut4mfShQA">(E1) THE BOARD</a> |
+    <a href="https://www.youtube.com/watch?v=BSQYQvZ37Pc">(E2) The Gimmick</a></p>
 </div>
 
 <div>

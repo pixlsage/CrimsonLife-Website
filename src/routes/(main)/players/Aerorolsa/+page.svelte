@@ -29,6 +29,9 @@
     Team: The Hustlers</p>
     <ul class="bullet-list">
       <li><strong>[S1]</strong> Formed <strong>The Hustlers</strong> with <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" /> and <PlayerRef name="Kibiyo_" nickname="Kibiyo" lives={3} season="thirdlife" /></li>
+      <li><strong>[S2]</strong> <PlayerRef name="Aerorolsa" lives={3} season="thirdlife" /> fell from a high place ~ off the Crimson Watchtower</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Aerorolsa" lives={2} season="thirdlife" /> fell from a high place ~ failed self-challenged bucket clutch off the Crimson Watchtower</li>
+      <li><strong>[S2]</strong> Made a trap at the wedding area, which is used by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> to kill <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

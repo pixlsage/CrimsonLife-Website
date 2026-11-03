@@ -41,6 +41,9 @@
       <li><strong>[S1]</strong> Found a spot on the cherry mountain to build on, but no structure was made</li>
       <li><strong>[S1]</strong> Went to the Nether and harvested the only crimson tree</li>
       <li><strong>[S1]</strong> Met up with <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /> to do the birthday meeting</li>
+      <li><strong>[S2]</strong> Built the <strong>Crimson Watchtower</strong></li>
+      <li><strong>[S2]</strong> Recorded Episode 1 of the Farming Podcast with <PlayerRef name="Genius_3" nickname="Genius" lives={2} season="thirdlife" /></li>
+      <li><strong>[S2]</strong> <PlayerRef name="pixlsage" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={1} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

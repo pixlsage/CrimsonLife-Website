@@ -28,7 +28,8 @@
     <p>Placement: N/A<br>
     Team: None</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Hobbbs" lives={3} season="thirdlife" /> drowned</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Hobbbs" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using a minecart ride trap</li>
     </ul>
   </div>
 </div>

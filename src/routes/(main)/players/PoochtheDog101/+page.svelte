@@ -31,6 +31,8 @@
       <li><strong>[S1]</strong> Joined <strong>The Dutch</strong> with <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /> and <PlayerRef name="SamStrange7" nickname="Sam" lives={3} season="thirdlife" /></li>
       <li><strong>[S1]</strong> Gave <PlayerRef name="ChampionofSpades" nickname="Misty" lives={2} season="thirdlife" /> 27 gold in exchange for him doing work for <strong>The Dutch</strong></li>
       <li><strong>[S1]</strong> Went to the Nether and gathered quartz for his team</li>
+      <li><strong>[S2]</strong> Built the <strong>Grounded Dutchman</strong></li>
+      <li><strong>[S2]</strong> <PlayerRef name="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using a trap</li>
     </ul>
   </div>
 </div>

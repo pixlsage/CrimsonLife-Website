@@ -31,6 +31,7 @@
       <li><strong>[S1]</strong> Started building <strong>Skynot</strong></li>
       <li><strong>[S1]</strong> Invited <PlayerRef name="HubrisGekko" nickname="Gekko" lives={2} season="thirdlife" /> and <PlayerRef name="Akamane55" nickname="Wes" lives={3} season="thirdlife" /> to join, but they declined</li>
       <li><strong>[S1]</strong> Formed the <strong>Skylanders</strong> with <PlayerRef name="FeebleBrush162" nickname="Ben" lives={3} season="thirdlife" /></li>
+      <li><strong>[S2]</strong> Built the wedding area</li>
     </ul>
   </div>
 </div>

@@ -32,6 +32,8 @@
       <li><strong>[S1]</strong> <PlayerRef name="ChampionofSpades" lives={3} season="thirdlife" /> fell from a high place</li>
       <li><strong>[S1]</strong> Did work for <strong>The Dutch</strong> in exchange for <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> paying them 27 gold</li>
       <li><strong>[S1]</strong> Bet 5 gold on <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /> being the first red</li>
+      <li><strong>[S2]</strong> <PlayerRef name="ChampionofSpades" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using a minecart ride trap</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Stack_o_nhoj" lives={3} season="thirdlife" /> was slain by <PlayerRef name="ChampionofSpades" lives={1} season="thirdlife" /></li>
     </ul>
   </div>
 </div>

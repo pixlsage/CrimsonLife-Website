@@ -32,6 +32,7 @@
       <li><strong>[S1]</strong> Explored the ancient city while caving, and the bastion in the Nether</li>
       <li><strong>[S1]</strong> Bet 18 gold on <PlayerRef name="ChampionofSpades" nickname="Misty" lives={2} season="thirdlife" /> being the first red</li>
       <li><strong>[S1]</strong> Formed <strong> Polar's Polers</strong> with <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" /> and <PlayerRef name="Prosperity_" nickname="Prosperity" lives={3} season="thirdlife" /></li>
+      <li><strong>[S2]</strong> Started building the glass dome around <strong>Polar's Polers</strong>' base</li>
     </ul>
   </div>
 </div>
