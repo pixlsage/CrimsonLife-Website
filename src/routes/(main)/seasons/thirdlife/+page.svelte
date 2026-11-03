@@ -118,7 +118,7 @@
             <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> steals the enchanter from spawn<br>
             <PlayerRef name="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using a trap<br>
             <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" /> builds <strong>The Hustlers</strong>' base<br>
-            <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using the same trap<br>
+            <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using a trap<br>
             <PlayerRef name="Hobbbs" lives={3} season="thirdlife" /> drowned<br>
             <PlayerRef name="Aerorolsa" lives={3} season="thirdlife" /> fell from a high place ~ off the Crimson Watchtower<br>
             <PlayerRef name="Aerorolsa" lives={2} season="thirdlife" /> fell from a high place ~ failed a self-challenged bucket clutch off the Crimson Watchtower<br>

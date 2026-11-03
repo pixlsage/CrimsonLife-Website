@@ -32,8 +32,7 @@
       <li><strong>[S1]</strong> Caved and searched a bastion, then properly formed <strong>The Cowboys</strong> with <PlayerRef name="HubrisGekko" nickname="Gekko" lives={2} season="thirdlife" /></li>
       <li><strong>[S1]</strong> Killed <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" />'s villagers</li>
       <li><strong>[S1]</strong> <PlayerRef name="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing the villagers</li>
-      <li><strong>[S2]</strong> <PlayerRef name="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ because of a trap he placed</li>
-      <li><strong>[S2]</strong> <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ because of the same trap</li>
+      <li><strong>[S2]</strong> <PlayerRef name="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ because of a trap he made</li>
       <li><strong>[S2]</strong> <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while trying to escape <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> ~ using a trap <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" /> made</li>
       <li><strong>[S2]</strong> <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> was doomed to fall by <PlayerRef name="vc_spade" lives={1} season="thirdlife" /></li>
     </ul>

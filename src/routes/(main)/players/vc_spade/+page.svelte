@@ -33,6 +33,7 @@
       <li><strong>[S1]</strong> <PlayerRef name="vc_spade" lives={3} season="thirdlife" /> fell from a high place</li>
       <li><strong>[S1]</strong> Disovered the villagers had been killed, looked for who had done it</li>
       <li><strong>[S1]</strong> <PlayerRef name="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing the villagers</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ because of a trap it made</li>
       <li><strong>[S2]</strong> <PlayerRef name="ChampionofSpades" lives={2} season="thirdlife" /> fell from a high place ~ because of a minecart ride trap it used</li>
       <li><strong>[S2]</strong> <PlayerRef name="Hobbbs" lives={2} season="thirdlife" /> fell from a high place ~ because of the same minecart trap</li>
       <li><strong>[S2]</strong> <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while trying to escape <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> ~ using a trap <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" /> made</li>
