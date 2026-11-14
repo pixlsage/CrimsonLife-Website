@@ -17,7 +17,7 @@
     {#each playerData as player}
         <PlayerCard
             name={player.name}
-            nickname={player.nickname}
+            username={player.username}
             lives={player.lives}
             placement={player.placement}
             seasons={player.seasons}

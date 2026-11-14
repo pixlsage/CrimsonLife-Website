@@ -7,12 +7,12 @@
 <div class="player-profile">
 
   <a href="https://namemc.com/skin/21979711d8d3e561">
-  <img src="/players/aquorn.png" alt="Aquorn" class="profile-img" />
+  <img src="/players/{player.name}.png" alt="{player.name}" class="profile-img" />
   </a>
 
   <div class="profile-info">
-    <h2 class="montserrat text-nickname">{player.nickname}</h2>
-    <p>Username: {player.name}</p>
+    <h2 class="montserrat player-text-name">{player.name.toUpperCase()}</h2>
+    <p>Username: {player.username}</p>
     <p>Former Name(s): None</p>
     <p>Pronouns: she/her</p>
     <p>Season(s): {player.seasonCheck.join(", ")}</p>
@@ -21,14 +21,15 @@
 </div>
 <br>
 <br>
-<h2 class="montserrat text-subtitle" style="text-align: center">Seasons</h2>
+<h2 class="montserrat player-text-subtitle" style="text-align: center">Seasons</h2>
 <div class="season-grid">
   <div class="season-info">
-    <h2 class="montserrat text-subtitle">Crimson Third Life</h2>
+    <h2 class="montserrat player-text-subtitle">Crimson Third Life</h2>
     <p>Placement: N/A<br>
-    Team: None</p>
+    Team: Unnamed Team</p>
     <ul class="bullet-list">
-      <li><strong>[S1]</strong> Event Placeholder</li>
+      <li><strong>[S3]</strong> Formed the <strong>Unnamed Team</strong> with <PlayerRef name="Scarlett" lives={2} season="thirdlife" /> and <PlayerRef name="Suga" lives={3} season="thirdlife" /></li>
+      <li><strong>[S3]</strong> Became allies with <PlayerRef name="Card" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>
@@ -38,18 +39,6 @@
 </div>
 
 <style>
-  .text-nickname {
-    font-size: 2.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .text-subtitle {
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
   .season-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));

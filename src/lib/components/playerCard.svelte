@@ -1,6 +1,6 @@
 <script>
     export var name = "";
-    export var nickname = "";
+    export var username = "";
     export var lives = 3;
     export var placement = "";
     export var seasons = "";
@@ -20,6 +20,8 @@
             return "yellowLife"
         } else if (lives == 1) {
             return "redLife"
+        } else if (lives === -1) {
+            return "crimson"
         } else {
             return "noLives"
         }
@@ -44,11 +46,11 @@
             on:error={handleImageError}
             class={`h-36 mx-auto mt-5 mb-10 drop-shadow-[0_35px_35px_rgba(0,0,0,0.6)] ${season ? getPlayerColour(lives) : ""}`}
             width="150"
-            alt={nickname}/>
+            alt={name}/>
         <h2 class={`montserrat ${season ? getPlayerColour(lives) : ""}`}>
-        <strong>{nickname}</strong>
+        <strong>{name.toUpperCase()}</strong>
         </h2>
-        <p style="color:white">{name}</p>
+        <p style="color:white">{username}</p>
         {#if season}
             <p style="color:white">{placement}</p>
         {/if}

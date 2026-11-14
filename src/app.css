@@ -78,6 +78,23 @@ body {
 	color: rgb(144, 159, 172);
 }
 
+.crimson {
+	color: #b81649;
+	text-shadow: -1px -1px 0 #80082e, 1px -1px 0 #80082e, -1px 1px 0 #80082e, 1px 1px 0 #80082e;
+}
+
+.rage {
+	color: #aa0000;
+}
+
+.vigor {
+	color: #0000aa;
+}
+
+.sense {
+	color: #00aa00;
+}
+
 img.noLives {
     filter: none;
     -webkit-filter: grayscale(100%);
@@ -192,7 +209,7 @@ code {
 	flex-wrap: wrap;
 	gap: 30px;
 	justify-content: center;
-	margin-top: 20px
+	margin-top: 20px;
 }
 
 .teamGrid > * {
@@ -252,6 +269,18 @@ Link {
     flex-wrap: wrap;
     background-color: var(--secondary);
     box-shadow: 0 0 20px rgba(70, 0, 34, 0.3);
+}
+
+.player-text-name {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.player-text-subtitle {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .skin-list {

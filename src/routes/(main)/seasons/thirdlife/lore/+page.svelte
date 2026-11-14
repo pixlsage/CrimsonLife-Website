@@ -7,19 +7,19 @@
     const chars = 'ABCDEFGHKMNOPQRSTUVWXYZ23456789';
 
     const block =
-        `[_____] are a group of cosmic entities, remnants of [________], desperate for attention after centuries of drifting through obscurity.
-        But very recently, they [_________]. Their interaction with mortals strengthens them, so they keep them around - [_____________] in order to make things go their way.
+        `[_____] are a group of cosmic entities, remnants of {a previous generation of overseers}, desperate for attention after centuries of drifting through obscurity.
+        But very recently, they [_________]. Their interaction with mortals strengthens them, so they keep them around - {they're driven by chaos, breaking the rules whenever needed} in order to make things go their way.
         It almost seems as if [_____________].
 
         There are others like them, but there's no point in cooperating. They operate differently.
         [_______________________].
-        [__________], even if others might "discourage" it. Others may say their antics are an "interference with the narrative", but [___________]… and so they're feared.
+        [__________], even if others might "discourage" it. Others may say their antics are an "interference with the narrative", but {they are simply making things more interesting}… and so they're feared.
 
-        [_______________], allowing them to influence narratives through their inherent thirst for chaos.
+        {Their connection to the living grows strongest when they're closest to death}, allowing them to influence narratives through their inherent thirst for chaos.
         It seems they have a motive for [__________], and it can only be assumed that the more this happens, the closer they become to their goal...
         ...whatever it is.
 
-        This is the first world they've gotten a real hold on, and [_____________].
+        This is the first world they've gotten a real hold on, and {now they've figured out how to make contact}.
         They're using the players as a medium to stay in control, so [___________]...`;
 
     function randomChar() {
@@ -28,6 +28,7 @@
 
     function scramble(text) {
         let insidePlaceholder = false;
+        let insideRevealed = false;
 
         return text
             .split('')
@@ -42,6 +43,18 @@
                 }
                 if (insidePlaceholder && char === '_') {
                     return randomChar();
+                }
+
+                if (char === '{') {
+                    insideRevealed = true;
+                    return '';
+                }
+                if (char === '}') {
+                    insideRevealed = false;
+                    return '';
+                }
+                if (insideRevealed) {
+                    return `<span class="revealed">${char}</span>`;
                 }
                 return char;
             })
@@ -75,8 +88,8 @@
 
 <div class="text-block">
     <div class="text-container">
-        <h3 class="montserrat" style="text-align:center">Stage 1</h3>
-        <p>{displayedText}</p>
+        <h3 class="montserrat" style="text-align:center">Stage 2</h3>
+        <p>{@html displayedText}</p>
         <br>
     </div>
 </div>
@@ -92,5 +105,9 @@
         min-height: 400px;
         white-space: pre-line;
         font-family: 'Minecraft-Regular', sans-serif;
+    }
+
+    :global(.revealed) {
+        color: #e6a23c !important;
     }
 </style>

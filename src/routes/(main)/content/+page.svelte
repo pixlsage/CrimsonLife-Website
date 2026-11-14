@@ -18,20 +18,22 @@
   <p><strong>Pix's CTL:</strong>
     <a href="https://youtube.com/playlist?list=PLNoTsRZshWag&si=TEqLKGRLzVj5ZuDI">(Playlist) Crimson Third Life</a></p>
   <p><strong>Savi's CTL:</strong>
-    <a href="https://www.youtube.com/watch?v=YTBo8MHKIf8">(E1) The Kingdom of Grase!</a> | 
-    <a href="https://www.youtube.com/watch?v=q3H_fyBdyaQ">(E2 Filler) Crimson Life Hunger Games</a></p>
+    <a href="https://www.youtube.com/watch?v=YTBo8MHKIf8">(S1) The Kingdom of Grase!</a> | 
+    <a href="https://www.youtube.com/watch?v=q3H_fyBdyaQ">(S2 Filler) Crimson Life Hunger Games</a></p>
   <p><strong>Genius Farming Podcast:</strong>
     <a href="https://www.youtube.com/playlist?list=PLQ0vNVGv6Ufc">(Playlist) Genius Farming Podcast</a></p>
   <p><strong>Sam's CTL:</strong>
-    <a href="https://www.youtube.com/watch?v=qHXnskzTSJk">(E1) THE DUTCH</a> | 
-    <a href="https://www.youtube.com/watch?v=QfrzuVKPTFk">(E2) FOMO</a></p>
+    <a href="https://www.youtube.com/watch?v=qHXnskzTSJk">(S1) THE DUTCH</a> | 
+    <a href="https://www.youtube.com/watch?v=QfrzuVKPTFk">(S2) FOMO</a></p>
   <p><strong>Flamango's CTL:</strong>
     <a href="https://www.youtube.com/watch?v=5bLjnHRjyBQ">Crimson Life Any% Glitchless</a></p>
   <p><strong>Gekko's CTL:</strong>
-    <a href="https://www.youtube.com/watch?v=YXTKQxA3YWE">(E1) Partners in Crime</a></p>
+    <a href="https://www.youtube.com/watch?v=YXTKQxA3YWE">(S1) Partners in Crime</a> | 
+    <a href="https://www.youtube.com/watch?v=U0GC3yn8RjY">(S3) Ain't No Rest For The Wicked</a></p>
   <p><strong>Card's CTL:</strong>
-    <a href="https://www.youtube.com/watch?v=j4ut4mfShQA">(E1) THE BOARD</a> | 
-    <a href="https://www.youtube.com/watch?v=BSQYQvZ37Pc">(E2) The Gimmick</a></p>
+    <a href="https://www.youtube.com/watch?v=j4ut4mfShQA">(S1) THE BOARD</a> | 
+    <a href="https://www.youtube.com/watch?v=BSQYQvZ37Pc">(S2) The Gimmick</a> | 
+    <a href="https://www.youtube.com/watch?v=MqBwiHhTplg">(S3) He Had it Coming</a></p>
 </div>
 
 <div>

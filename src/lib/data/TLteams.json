@@ -1,38 +1,39 @@
 [
     {
         "teamName": "Skylanders",
-        "players": ["FeebleBrush162", "CardinalVII"]
+        "players": ["ben", "card"]
     },
     {
         "teamName": "Grase Kingdom",
-        "players": ["SaviMatteo2810", "Sherbiscute", "SweetyYuso"]
+        "players": ["savi", "rei", "yuso"]
     },
     {
         "teamName": "The Dutch",
-        "players": ["Genius_3", "SamStrange7", "PoochtheDog101"]
+        "players": ["genius", "sam", "pooch"]
     },
     {
         "teamName": "The Gold Diggers",
-        "players": ["vc_spade", "ChampionofSpades"]
+        "players": ["spade", "misty"]
     },
     {
         "teamName": "The Hustlers",
-        "players": ["Manahhhh", "Kibiyo_", "Aerorolsa"]
+        "players": ["mana", "kibiyo", "aero"]
     },
     {
         "teamName": "Polar's Polers",
-        "players": ["typolar", "Flamango37", "Prosperity_"]
+        "players": ["polar", "flamango", "prosperity"]
     },
     {
         "teamName": "The Cowboys",
-        "players": ["HubrisGekko", "Akamane55"]
+        "players": ["gekko", "wes", "misty"],
+        "notes": "Misty from Session 3 onwards"
     },
     {
         "teamName": "Unnamed Team [S3]",
-        "players": ["aquorn", "SxarI3tt", "chaotic_Suga"]
+        "players": ["aquorn", "scarlett", "suga"]
     },
     {
         "teamName": "Unaligned",
-        "players": ["pixlsage", "Stack_o_nhoj", "Hobbbs"]
+        "players": ["pix", "john", "hobbbs"]
     }
 ]

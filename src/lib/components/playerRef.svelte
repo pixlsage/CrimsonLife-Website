@@ -1,9 +1,11 @@
 <script>
     export var name = "";
-    export var nickname = "";
+    export var username = "";
     export var lives = 3;
     export var season = "";
     let imageAttempt = 0;
+
+    let internalName = name.toLowerCase();
 
     function getPlayerColour(lives) {
         if (lives >= 4) {
@@ -12,8 +14,10 @@
             return "greenLife"
         } else if (lives === 2) {
             return "yellowLife"
-        } else if (lives == 1) {
+        } else if (lives === 1) {
             return "redLife"
+        } else if (lives === -1) {
+            return "crimson"
         } else {
             return "noLives"
         }
@@ -25,22 +29,22 @@
         imageAttempt += 1;
 
         if (imageAttempt === 1) {
-            img.src = `/players/${name}.png`;
+            img.src = `/players/${internalName}.png`;
         } else if (imageAttempt === 2) {
             img.src = `/players/placeholder.png`;
         }
     }
 </script>
 
-<a href={`/players/${name}`}>
+<a href={`/players/${internalName}`}>
     <span class="player-ref">
         <img
-            src={`/players/${season}/${name}.png`}
+            src={`/players/${season}/${internalName}.png`}
             on:error={handleImageError}
             alt={name}
             class="player-icon"
         />
-        <span class={getPlayerColour(lives)}>{nickname || name}</span>
+        <span class={getPlayerColour(lives)}>{username || name}</span>
     </span>
 </a>
 

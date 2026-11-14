@@ -1,5 +1,6 @@
 <script>
     export var teamName = "";
+    export var notes = "";
 </script>
 
 <div class="teamCard">
@@ -7,6 +8,7 @@
     <div class="teamGrid">
         <slot></slot>
     </div>
+    <p style="text-align: center">{notes}</p>
 </div>
 
 <style>
@@ -17,7 +19,7 @@
         padding: 1rem;
         border-radius: 1rem;
         background-color: var(--secondary);
-        box-shadow: 0 0 30px rgba(70, 0, 34, 0.3)
+        box-shadow: 0 0 30px rgba(70, 0, 34, 0.3);
     }
 
     .text-title {

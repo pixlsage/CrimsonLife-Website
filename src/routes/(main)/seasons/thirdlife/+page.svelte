@@ -7,6 +7,7 @@
     let showTeams = false;
     let showS1 = false;
     let showS2 = false;
+    let showS3 = false;
 
     const seasonPlayers = playerData.filter(player =>
         player.seasonCheck.includes("CTL")
@@ -35,7 +36,7 @@
         {#each seasonPlayers as player}
             <PlayerCard
                 name={player.name}
-                nickname={player.nickname}
+                username={player.username}
                 lives={player.lives}
                 placement={player.placement}
                 seasons={player.seasons}
@@ -54,7 +55,7 @@
         <br>
         <div class="teams">
         {#each teamData as team}
-            <TeamCard teamName={team.teamName}>
+            <TeamCard teamName={team.teamName} notes={team.notes}>
             {#each team.players as playerName}
                 {#if getPlayer(playerName)}
                 <PlayerCard {...getPlayer(playerName)} season={true} series="thirdlife"/>
@@ -69,7 +70,7 @@
 
     <br><h1 class="montserrat" style="text-align:center">GIMMICK</h1><br>
     <p style="text-align:center">This season's gimmick has been revealed, but only to a select few players.<br>
-                                The only video that contains it is Card's Episode 2 - watch that if you want to know what it is!</p>
+                                Some videos on Session 3 - including Card's Episode 2 - contain it, so watch those if you want to know.</p>
 
     <br><h1 class="montserrat" style="text-align:center">EVENTS</h1>
     <h2 class="montserrat" style="text-align:center">Session 1</h2>
@@ -77,32 +78,32 @@
     {#if showS1}
         <div style="line-height: 1.8">
         <p style="text-align: center">
-            <PlayerRef name="SxarI3tt" nickname="Scarlett" lives={3} season="thirdlife" /> steals the enchanting table from spawn<br>
-            <PlayerRef name="Flamango37" lives={3} season="thirdlife"/> was shot by Pillager<br>
-            <PlayerRef name="SaviMatteo2810" nickname="Savi" lives={3} season="thirdlife" />, <PlayerRef name="Sherbiscute" nickname="Rei" lives={3} season="thirdlife" /> and <PlayerRef name="SweetyYuso" nickname="Yuso" lives={3} season="thirdlife" /> form the <strong>Grase Kingdom</strong><br>
-            <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /> and <PlayerRef name="SamStrange7" nickname="Sam" lives={3} season="thirdlife" /> form <strong>The Dutch</strong><br>
-            <PlayerRef name="vc_spade" nickname="Spade" lives={3} season="thirdlife" /> and <PlayerRef name="ChampionofSpades" nickname="Misty" lives={3} season="thirdlife" /> form <strong>The Gold Diggers</strong><br>
-            <PlayerRef name="ChampionofSpades" lives={3} season="thirdlife" /> fell from a high place<br>
-            <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /> begins building <strong>The Dutch</strong>'s base<br>
-            <PlayerRef name="typolar" lives={3} season="thirdlife" /> tried to swim in lava<br>
-            <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" /> begins building his base<br>
-            <PlayerRef name="vc_spade" lives={3} season="thirdlife" /> fell from a high place<br>
-            <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> joins <strong>The Dutch</strong><br>
-            <PlayerRef name="SxarI3tt" lives={3} season="thirdlife" /> fell from a high place<br>
-            <PlayerRef name="Sherbiscute" nickname="Rei" lives={3} season="thirdlife" /> and <PlayerRef name="SweetyYuso" nickname="Yuso" lives={3} season="thirdlife" /> begin building the <strong>Grase Kingdom</strong>'s base<br>
-            <PlayerRef name="CardinalVII" nickname="Card" lives={3} season="thirdlife" /> begins building <strong>Skynot</strong><br>
-            <PlayerRef name="HubrisGekko" lives={3} season="thirdlife" /> burned to death<br>
-            <PlayerRef name="HubrisGekko" nickname="Gekko" lives={2} season="thirdlife" /> begins building <strong>The Saloon</strong><br>
-            <strong>The Dutch</strong> hire <PlayerRef name="ChampionofSpades" nickname="Misty" lives={2} season="thirdlife" /> to do work for them in exchange for gold<br>
-            <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /> claims an area to build in<br>
-            <PlayerRef name="HubrisGekko" nickname="Gekko" lives={2} season="thirdlife" /> and <PlayerRef name="Akamane55" nickname="Wes" lives={3} season="thirdlife" /> form <strong>The Cowboys</strong><br>
-            <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" />, <PlayerRef name="Kibiyo_" nickname="Kibiyo" lives={3} season="thirdlife" /> and <PlayerRef name="Aerorolsa" nickname="Aero" lives={3} season="thirdlife" /> form <strong>The Hustlers</strong><br>
-            <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" /> begins building <strong>The Hustlers</strong>' base<br>
-            <PlayerRef name="FeebleBrush162" nickname="Ben" lives={3} season="thirdlife" /> and <PlayerRef name="CardinalVII" nickname="Card" lives={3} season="thirdlife" /> form the <strong>Skylanders</strong><br>
-            <PlayerRef name="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing its villagers<br>
-            <PlayerRef name="typolar" nickname="Polar" lives={2} season="thirdlife" />, <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /> and <PlayerRef name="Prosperity_" nickname="Prosperity" lives={3} season="thirdlife" /> form <strong>Polar's Polers</strong><br>
-            <PlayerRef name="Stack_o_nhoj" nickname="John" lives={3} season="thirdlife" /> begins building <strong>The Carving Shack</strong><br>
-            <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /> and <PlayerRef name="Genius_3" nickname="Genius" lives={3} season="thirdlife" /> hold a meeting for Genius' birthday and his announcement of the Farming Podcast<br>
+            <PlayerRef name="Scarlett" lives={3} season="thirdlife" /> steals the enchanting table from spawn<br>
+            <PlayerRef name="Flamango" username="Flamango37" lives={3} season="thirdlife"/> was shot by Pillager<br>
+            <PlayerRef name="Savi" lives={3} season="thirdlife" />, <PlayerRef name="Rei" lives={3} season="thirdlife" /> and <PlayerRef name="Yuso" lives={3} season="thirdlife" /> form the <strong>Grase Kingdom</strong><br>
+            <PlayerRef name="Genius" lives={3} season="thirdlife" /> and <PlayerRef name="Sam" lives={3} season="thirdlife" /> form <strong>The Dutch</strong><br>
+            <PlayerRef name="Spade" lives={3} season="thirdlife" /> and <PlayerRef name="Misty" lives={3} season="thirdlife" /> form <strong>The Gold Diggers</strong><br>
+            <PlayerRef name="Misty" username="ChampionofSpades" lives={3} season="thirdlife" /> fell from a high place<br>
+            <PlayerRef name="Genius" lives={3} season="thirdlife" /> begins building <strong>The Dutch</strong>'s base<br>
+            <PlayerRef name="Polar" username="typolar" lives={3} season="thirdlife" /> tried to swim in lava<br>
+            <PlayerRef name="Polar" lives={2} season="thirdlife" /> begins building his base<br>
+            <PlayerRef name="Spade" username="vc_spade" lives={3} season="thirdlife" /> fell from a high place<br>
+            <PlayerRef name="Pooch" lives={3} season="thirdlife" /> joins <strong>The Dutch</strong><br>
+            <PlayerRef name="Scarlett" username="SxarI3tt" lives={3} season="thirdlife" /> fell from a high place<br>
+            <PlayerRef name="Rei" lives={3} season="thirdlife" /> and <PlayerRef name="Yuso" lives={3} season="thirdlife" /> begin building the <strong>Grase Kingdom</strong>'s base<br>
+            <PlayerRef name="Card" lives={3} season="thirdlife" /> begins building <strong>Skynot</strong><br>
+            <PlayerRef name="Gekko" username="HubrisGekko" lives={3} season="thirdlife" /> burned to death<br>
+            <PlayerRef name="Gekko" lives={2} season="thirdlife" /> begins building <strong>The Saloon</strong><br>
+            <strong>The Dutch</strong> hire <PlayerRef name="Misty" lives={2} season="thirdlife" /> to do work for them in exchange for gold<br>
+            <PlayerRef name="Pix" lives={3} season="thirdlife" /> claims an area to build in<br>
+            <PlayerRef name="Gekko" lives={2} season="thirdlife" /> and <PlayerRef name="Wes" lives={3} season="thirdlife" /> form <strong>The Cowboys</strong><br>
+            <PlayerRef name="Mana" lives={3} season="thirdlife" />, <PlayerRef name="Kibiyo" lives={3} season="thirdlife" /> and <PlayerRef name="Aero" lives={3} season="thirdlife" /> form <strong>The Hustlers</strong><br>
+            <PlayerRef name="Mana" lives={3} season="thirdlife" /> begins building <strong>The Hustlers</strong>' base<br>
+            <PlayerRef name="Ben" lives={3} season="thirdlife" /> and <PlayerRef name="Card" lives={3} season="thirdlife" /> form the <strong>Skylanders</strong><br>
+            <PlayerRef name="Wes" username="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing its villagers<br>
+            <PlayerRef name="Polar" lives={2} season="thirdlife" />, <PlayerRef name="Flamango" lives={2} season="thirdlife" /> and <PlayerRef name="Prosperity" lives={3} season="thirdlife" /> form <strong>Polar's Polers</strong><br>
+            <PlayerRef name="John" lives={3} season="thirdlife" /> begins building <strong>The Carving Shack</strong><br>
+            <PlayerRef name="Pix" lives={3} season="thirdlife" /> and <PlayerRef name="Genius" lives={3} season="thirdlife" /> hold a meeting for Genius' birthday and his announcement of the Farming Podcast<br>
         </p>
         </div>
     {/if}
@@ -111,29 +112,56 @@
     {#if showS2}
         <div style="line-height: 1.8">
         <p style="text-align: center">
-            The enchanting table is replaced at spawn due to <PlayerRef name="SxarI3tt" nickname="Scarlett" lives={2} season="thirdlife" />'s absence<br>
+            The enchanting table is replaced at spawn due to <PlayerRef name="Scarlett" lives={2} season="thirdlife" />'s absence<br>
             <strong>The Dutch</strong>'s base is expanded<br>
-            <PlayerRef name="PoochtheDog101" nickname="Pooch" lives={3} season="thirdlife" /> builds the <strong>Grounded Dutchman</strong><br>
-            <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /> builds the <strong>Crimson Watchtower</strong><br>
-            <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> steals the enchanter from spawn<br>
-            <PlayerRef name="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Akamane55" nickname="Wes" lives={2} season="thirdlife" /> using a trap<br>
-            <PlayerRef name="Manahhhh" nickname="Mana" lives={3} season="thirdlife" /> builds <strong>The Hustlers</strong>' base<br>
-            <PlayerRef name="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using a trap<br>
+            <PlayerRef name="Pooch" lives={3} season="thirdlife" /> builds the <strong>Grounded Dutchman</strong><br>
+            <PlayerRef name="Pix" lives={3} season="thirdlife" /> builds the <strong>Crimson Watchtower</strong><br>
+            <PlayerRef name="Spade" lives={2} season="thirdlife" /> steals the enchanter from spawn<br>
+            <PlayerRef name="Pooch" username="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Wes" lives={2} season="thirdlife" /> using a trap<br>
+            <PlayerRef name="Mana" lives={3} season="thirdlife" /> builds <strong>The Hustlers</strong>' base<br>
+            <PlayerRef name="Genius" username="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="Spade" lives={2} season="thirdlife" /> using a trap<br>
             <PlayerRef name="Hobbbs" lives={3} season="thirdlife" /> drowned<br>
-            <PlayerRef name="Aerorolsa" lives={3} season="thirdlife" /> fell from a high place ~ off the Crimson Watchtower<br>
-            <PlayerRef name="Aerorolsa" lives={2} season="thirdlife" /> fell from a high place ~ failed a self-challenged bucket clutch off the Crimson Watchtower<br>
+            <PlayerRef name="Aero" username="Aerorolsa" lives={3} season="thirdlife" /> fell from a high place ~ off the Crimson Watchtower<br>
+            <PlayerRef name="Aero" username="Aerorolsa" lives={2} season="thirdlife" /> fell from a high place ~ failed a self-challenged bucket clutch off the Crimson Watchtower<br>
             Bets for the first red are collected by <strong>The Hustlers</strong> (nobody won)<br>
-            <PlayerRef name="Genius_3" nickname="Genius" lives={2} season="thirdlife" /> records episode 1 of the Farming Podcast with <PlayerRef name="pixlsage" nickname="Pix" lives={3} season="thirdlife" /><br>
-            <PlayerRef name="ChampionofSpades" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using a minecart ride trap<br>
-            <PlayerRef name="Hobbbs" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> using the same minecart trap<br>
-            <PlayerRef name="Flamango37" nickname="Flamango" lives={2} season="thirdlife" /> begins building the glass dome around <strong>Polar's Polers</strong>' base<br>
-            <PlayerRef name="CardinalVII" nickname="Card" lives={3} season="thirdlife" /> builds the wedding area<br>
-            <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" /> makes a trap at the wedding area<br>
-            <PlayerRef name="Stack_o_nhoj" lives={3} season="thirdlife" /> was slain by <PlayerRef name="ChampionofSpades" lives={1} season="thirdlife" /><br>
-            <PlayerRef name="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while fighting <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> ~ using <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" />'s trap at the wedding area<br>
-            <PlayerRef name="Akamane55" lives={2} season="thirdlife" /> was doomed to fall by <PlayerRef name="vc_spade" lives={1} season="thirdlife" /><br>
-            <PlayerRef name="pixlsage" lives={3} season="thirdlife" /> was slain by <PlayerRef name="vc_spade" lives={1} season="thirdlife" /><br>
-            <PlayerRef name="vc_spade" nickname="Spade" lives={2} season="thirdlife" /> gains a life and becomes yellow<br>
+            <PlayerRef name="Genius" lives={2} season="thirdlife" /> records episode 1 of the Farming Podcast with <PlayerRef name="Pix" lives={3} season="thirdlife" /><br>
+            <PlayerRef name="Misty" username="ChampionofSpades" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Spade" lives={2} season="thirdlife" /> using a minecart ride trap<br>
+            <PlayerRef name="Hobbbs" lives={2} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Spade" lives={2} season="thirdlife" /> using the same minecart trap<br>
+            <PlayerRef name="Flamango" lives={2} season="thirdlife" /> begins building the glass dome around <strong>Polar's Polers</strong>' base<br>
+            <PlayerRef name="Card" lives={3} season="thirdlife" /> builds the wedding area<br>
+            <PlayerRef name="Aero" lives={1} season="thirdlife" /> makes a trap at the wedding area<br>
+            <PlayerRef name="John" username="Stack_o_nhoj" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Misty" username="ChampionofSpades" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while fighting <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> ~ using <PlayerRef name="Aero" lives={1} season="thirdlife" />'s trap at the wedding area<br>
+            <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> was doomed to fall by <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="Pix" username="pixlsage" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> gains a life and becomes yellow<br>
+        </p>
+        </div>
+    {/if}
+    <h2 class="montserrat" style="text-align:center">Session 3</h2>
+    <div style="text-align: center"><button on:click={() => showS3 = !showS3} aria-expanded={showS3}> {showS3 ? "Hide S3 Summary" : "Show S3 Summary"}</button></div>
+    {#if showS3}
+        <div style="line-height: 1.8">
+        <p style="text-align: center">
+            A wedding takes place between <PlayerRef name="Prosperity" lives={3} season="thirdlife" /> and <PlayerRef name="Card" lives={3} season="thirdlife" /><br>
+            <PlayerRef name="Ben" username="FeebleBrush162" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Misty" username="ChampionofSpades" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="Misty" lives={2} season="thirdlife" /> gains a life and becomes yellow<br>
+            <PlayerRef name="Aquorn" lives={3} season="thirdlife" />, <PlayerRef name="Scarlett" lives={2} season="thirdlife" /> and <PlayerRef name="Suga" lives={3} season="thirdlife" /> form the <strong>Unnamed Team</strong><br>
+            <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> fell from a high place<br>
+            <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /> drowned while trying to fight <PlayerRef name="Card" username="CardinalVII" lives={3} season="thirdlife" /><br>
+            <strong><PlayerRef name="Spade" lives={0} season="thirdlife" /> is eliminated in 24th place</strong><br>
+            <PlayerRef name="Misty" lives={2} season="thirdlife" /> joins <strong>The Cowboys</strong><br>
+            <PlayerRef name="Genius" username="Genius_3" lives={2} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="Wes" lives={1} season="thirdlife" /> using a trap in the recording studio<br>
+            <PlayerRef name="Pix" lives={2} season="thirdlife" /> and <PlayerRef name="Genius" lives={1} season="thirdlife" /> rebuild the recording studio<br>
+            <PlayerRef name="Suga" username="chaotic_Suga" lives={3} season="thirdlife" /> fell from a high place<br>
+            <PlayerRef name="Genius" lives={1} season="thirdlife" /> records episode 2 of the Farming Podcast with <PlayerRef name="Rei" lives={3} season="thirdlife" /> and <PlayerRef name="Gekko" lives={2} season="thirdlife" /><br>
+            <PlayerRef name="Wes" lives={-1} season="thirdlife" /> uses <span class="sense">SENSE</span>, but doesn't get a kill<br>
+            <PlayerRef name="Scarlett" username="SxarI3tt" lives={2} season="thirdlife" /> burned to death<br>
+            <PlayerRef name="Mana" username="Manahhhh" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Wes" username="Akamane55" lives={1} season="thirdlife" /> ~ with help from <PlayerRef name="Scarlett" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="Wes" lives={2} season="thirdlife" /> gains a life and becomes yellow<br>
+            <PlayerRef name="Savi" username="SaviMatteo2810" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Scarlett" username="SxarI3tt" lives={1} season="thirdlife" /><br>
+            <PlayerRef name="Pix" username="pixlsage" lives={2} season="thirdlife" /> tried to swim in lava<br>
+            <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> fell from a high place<br>
         </p>
         </div>
     {/if}
