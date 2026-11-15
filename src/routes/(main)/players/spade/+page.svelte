@@ -36,7 +36,7 @@
       <li><strong>[S2]</strong> <PlayerRef name="Genius" username="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ because of a trap it made</li>
       <li><strong>[S2]</strong> <PlayerRef name="Misty" username="ChampionofSpades" lives={2} season="thirdlife" /> fell from a high place ~ because of a minecart ride trap it used</li>
       <li><strong>[S2]</strong> <PlayerRef name="Hobbbs" lives={2} season="thirdlife" /> fell from a high place ~ because of the same minecart trap</li>
-      <li><strong>[S2]</strong> <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while trying to escape <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> ~ using a trap <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" /> made</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while trying to escape <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> ~ using a trap <PlayerRef name="Aero" lives={1} season="thirdlife" /> made</li>
       <li><strong>[S2]</strong> <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> was doomed to fall by <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /></li>
       <li><strong>[S2]</strong> <PlayerRef name="Pix" username="pixlsage" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /></li>
       <li><strong>[S2]</strong> Gained a life to become yellow</li>
