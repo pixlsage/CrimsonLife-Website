@@ -33,9 +33,10 @@
       <li><strong>[S1]</strong> Killed <PlayerRef name="Spade" lives={2} season="thirdlife" />'s villagers</li>
       <li><strong>[S1]</strong> <PlayerRef name="Wes" username="Akamane55" lives={3} season="thirdlife" /> was slain by <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> ~ as revenge for killing the villagers</li>
       <li><strong>[S2]</strong> <PlayerRef name="Pooch" username="PoochtheDog101" lives={3} season="thirdlife" /> fell from a high place ~ because of a trap he made</li>
-      <li><strong>[S2]</strong> <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while trying to escape <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> ~ using a trap <PlayerRef name="Aerorolsa" nickname="Aero" lives={1} season="thirdlife" /> made</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Spade" username="vc_spade" lives={2} season="thirdlife" /> was impaled on a stalagmite while trying to escape <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> ~ using a trap <PlayerRef name="Aero" lives={1} season="thirdlife" /> made</li>
       <li><strong>[S2]</strong> <PlayerRef name="Wes" username="Akamane55" lives={2} season="thirdlife" /> was doomed to fall by <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /></li>
       <li><strong>[S3]</strong> Recruited <PlayerRef name="Misty" lives={2} season="thirdlife" /> into <strong>The Cowboys</strong></li>
+      <li><strong>[S3]</strong> <PlayerRef name="Genius" username="Genius_3" lives={2} season="thirdlife" /> tried to swim in lava ~ because of a trap he opened</li>
       <li><strong>[S3]</strong> Trapped <strong>Skynot</strong> using blue glass panes, with help from <PlayerRef name="Gekko" lives={2} season="thirdlife" /> and <PlayerRef name="Polar" lives={2} season="thirdlife" /></li>
       <li><strong>[S3]</strong> Used <span class="sense">SENSE</span>, but doesn't get a kill</li>
       <li><strong>[S3]</strong> <PlayerRef name="Mana" username="Manahhhh" lives={3} season="thirdlife" /> is slain by <PlayerRef name="Wes" username="Akamane55" lives={1} season="thirdlife" /> - with help from <PlayerRef name="Scarlett" lives={1} season="thirdlife" /></li>

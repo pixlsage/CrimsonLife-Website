@@ -43,7 +43,7 @@
       <li><strong>[S1]</strong> Recruited <PlayerRef name="Pooch" lives={3} season="thirdlife" /> to his team</li>
       <li><strong>[S1]</strong> Met up with <PlayerRef name="Pix" lives={3} season="thirdlife" /> to do the birthday meeting</li>
       <li><strong>[S2]</strong> Expanded <strong>The Dutch</strong>'s base</li>
-      <li><strong>[S2]</strong> <PlayerRef name="Genius" username="Genius_3" lives={3} season="thirdlife" /> fell from a high place ~ killed by <PlayerRef name="Wes" lives={2} season="thirdlife" /> using a trap</li>
+      <li><strong>[S2]</strong> <PlayerRef name="Genius" username="Genius_3" lives={3} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="Spade" lives={2} season="thirdlife" /> using a trap</li>
       <li><strong>[S2]</strong> Recorded Episode 1 of the Farming Podcast with <PlayerRef name="Pix" lives={3} season="thirdlife" /></li>
       <li><strong>[S3]</strong> <PlayerRef name="Genius" username="Genius_3" lives={2} season="thirdlife" /> tried to swim in lava ~ killed by <PlayerRef name="Wes" lives={1} season="thirdlife" /> using the same trap</li>
       <li><strong>[S3]</strong> Rebuilt the recording studio with <PlayerRef name="Pix" lives={2} season="thirdlife" /></li>

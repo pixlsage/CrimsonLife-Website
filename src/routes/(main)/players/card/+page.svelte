@@ -34,6 +34,7 @@
       <li><strong>[S2]</strong> Built the wedding area</li>
       <li><strong>[S3]</strong> Had a wedding with <PlayerRef name="Prosperity" lives={3} season="thirdlife" /></li>
       <li><strong>[S3]</strong> Became allies with <PlayerRef name="Aquorn" lives={3} season="thirdlife" /></li>
+      <li><strong>[S3]</strong> <PlayerRef name="Spade" username="vc_spade" lives={1} season="thirdlife" /> drowned while trying to fight <PlayerRef name="Card" username="CardinalVII" lives={3} season="thirdlife" /></li>
     </ul>
   </div>
 </div>
